@@ -2,11 +2,8 @@ import React from 'react';
 
 function User(props) {
     return (
-
-        <td>{props.user.username}</td>
-
+        <div>{props.user.name}</div>
     )
 }
-
 
 export default User;

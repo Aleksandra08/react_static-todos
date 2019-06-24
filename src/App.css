@@ -1,13 +1,15 @@
-table, td, th{
-  border:1px solid black;
-}
-table{
- border-collapse: collapse;
+table, td, th {
+    border: 1px solid black;
 }
 
-th{
-  background: aquamarine;
+table {
+    border-collapse: collapse;
 }
-.done{
-  background: lavender;
+
+th {
+    background: aquamarine;
+}
+
+.done {
+    background: lavender;
 }

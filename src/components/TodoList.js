@@ -1,16 +1,22 @@
 import React from 'react';
 import todos from './todos'
 import users from './users'
-import TodoItem from './TodoItem'
+import TodoItems from './TodoItems'
 
 function TodoList() {
-
     return (
         <table>
-         <TodoItem todoItem={todos} user={users}/>
+            <tbody>
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Text</th>
+                <th>Completed</th>
+            </tr>
+            </tbody>
+            <TodoItems todoItems={todos} user={users}/>
         </table>
     );
 }
-
 
 export default TodoList;
