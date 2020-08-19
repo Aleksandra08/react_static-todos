@@ -1,3 +1,5 @@
+https://aleksandra08.github.io/react_static-todos/
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
